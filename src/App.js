@@ -10,8 +10,8 @@ const App = () => {
     return (
         <div className="App">
             <h1>New App in progress</h1>
-            <TaskList />
             <TaskForm />
+            <TaskList />
             <Task />
         </div>
     );

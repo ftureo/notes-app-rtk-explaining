@@ -37,6 +37,9 @@ const TaskForm = () => {
     //     });
     // };
 
+    // Si se trata de escuchar un evento o de pasarlo como un parámetro, se utilizará la letra e o la palabra event
+
+    // Si se trata de un handler error, se utilizará la expresión err o la palabra error
     const handleChange = (e) => {
         // console.log(e.target.name, e.target.value);
         setTask({
